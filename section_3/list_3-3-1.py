@@ -4,7 +4,7 @@ import numpy as np # Numpy. 数値計算用のライブラリ
 x = np.arange(-1.0, 1.01, 0.01) # x軸の値を代入する処理
 y = 3 * x # y軸の値、一次関数（Linear function）
 """
-↓リストにしたばいい
+↓リストにしたければ
 y = []
 for i in range(len(x)):
     y.append(3 * x[i])
